@@ -8,12 +8,12 @@ import io.cucumber.junit.CucumberOptions;
 @RunWith(Cucumber.class)
 
 @CucumberOptions(
-		features="C:/Users/kranthi/workspace/BDDCUCUMBER/src/test/java/Feature/Tags.feature",
+		features="C:/Users/kranthi/workspace/BDDCUCUMBER/src/test/java/Feature/Hooks.feature",
 	    extraGlue= {"StepDefination"},
 		strict=true,
 		dryRun=false,
-		monochrome= true,
-		tags= {"@SmokeTest","@RegressionTest"}
+		monochrome= true
+		//tags= {"@SmokeTest","@RegressionTest"}
 		//format= {"pretty","html:test-outout"}
 		
 		)

@@ -1,4 +1,4 @@
-package StepDefination;
+/*package StepDefination;
 
 import org.openqa.selenium.By;
 
@@ -38,8 +38,8 @@ public void Open_URL_and_click_on_sign_in() {
 	
 	//WebDriverWait wait = new WebDriverWait(driver, 60);
 	
-	/* WebElement signin = wait.until(ExpectedConditions.elementToBeClickable(driver.findElement(By.xpath("/html[1]/body[1]/header[1]/nav[1]/ul[1]/li[1]/a[1]"))));		 
-	 signin.click();*/
+	 WebElement signin = wait.until(ExpectedConditions.elementToBeClickable(driver.findElement(By.xpath("/html[1]/body[1]/header[1]/nav[1]/ul[1]/li[1]/a[1]"))));		 
+	 signin.click();
    
 }
 
@@ -95,3 +95,4 @@ public void click_appointment_tab() {
 
 
 }
+*/
