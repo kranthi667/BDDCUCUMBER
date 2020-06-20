@@ -6,13 +6,14 @@ import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
-//@CucumberOptions(strict = true)
+
 @CucumberOptions(
-		features="C:/Users/kranthi/workspace/BDDCUCUMBER/src/test/java/Feature/Login.feature",
-		glue= {"StepDefination"},
+		features="C:/Users/kranthi/workspace/BDDCUCUMBER/src/test/java/Feature/Tags.feature",
+	    extraGlue= {"StepDefination"},
 		strict=true,
 		dryRun=false,
-		monochrome= true
+		monochrome= true,
+		tags= {"@SmokeTest","@RegressionTest"}
 		//format= {"pretty","html:test-outout"}
 		
 		)
